@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.text{
+    font-family: 'Martel Sans';
+    color: white;
+}
+
+
+/* starting main part */
+.main{
+    background: url(images/bg.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+.main .box{
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    height: 100vh;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .text{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+.main .text .t1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.main .text .t2{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.main .text .t3{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+input{
+    background: transparent;
+    border: solid red 1px;
+    border-radius: 5px;
+    height: 50px;
+    width: 340px;
+    font-size: 18px;
+    color: rgb(175, 174, 174);
+    padding-left: 10px;
+}
+
+
+.navb{
+    padding: 8px;
+    margin: 10px;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: medium;
+}
+.b1{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: transparent;
+    border: solid rgb(139, 139, 139) 0.5px;
+}
+.b2{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    border: none;
+}
+
+.get{
+    margin-left: 5px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: red;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: rgb(172, 172, 172);
+    font-size: medium;
+}
+
+
+
+/* 4 boxes */
+.grey{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(35, 35, 35);
+}
+
+.body{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+.flex{
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+/* .two{
+    padding-top: 5%;
+} */
+
+.t1{
+    font-weight: 900;
+    font-size: 47px;
+}
+.t2{
+    font-size: 25px;
+}
+
+
+/* FAQ section */
+.faq{
+    background-color: black;
+    padding-bottom: 80px;
+}
+.head{
+    padding-top: 40px;
+    text-align: center;
+}
+.q{
+    background-color: rgb(45, 45, 45);
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.faq .t{
+    font-size: 18px;
+    margin-left: 28%;
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
+.repeat .second{
+    margin-left: 30%;
+}
+
+
+
+/* end part */
+.end{
+    height: 70vh;
+    background-color: black;
+    color: rgb(184, 182, 182);
+    font-family: 'Martel Sans';
+}
+.end .call{
+    padding-left: 210px;
+    padding-top: 65px;
+}
+.end .txt{
+    display: flex;
+    padding-left: 210px;
+}
+.end .c{
+    margin-top: 30px;
+    margin-right: 180px;
+    font-size: 13px;
+}
+.end .b1{
+    margin-top: 30px;
+    margin-left: 210px;
+}
+.end .ind{
+    margin-left: 210px;
+    margin-top: 20px;
+}
+
+
+
+/* video setting */
+.img{
+    position: relative;
+    z-index: 2;
+}
+
+.tv{
+    position: relative;
+}
+.vid1{
+    position: absolute;
+    top: 100px;
+    right: 90px;
+    z-index: 1;
+}
+
+.device{
+    position: relative;
+}
+.vid3{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    z-index: 1;
+}
